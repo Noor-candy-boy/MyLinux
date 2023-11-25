@@ -1,0 +1,33 @@
+
+
+#!/bin/bash
+
+echo "Please Enter your name : "
+read name
+
+echo "Hi $name ... "
+echo "Tell me your Age, Based on yout age we will display your stage : "
+
+read age
+
+if [ $age -lt 13 ]
+then
+   echo "you are under 13 old year, so you are in child stage"
+
+elif [ $age -gt 13 -a $age -lt 19 ]
+then
+   echo "you are more 13 old year, so you are in teenager stage"
+
+else
+   echo "you are more than 19 old year, so you are in olage stage - So Enjoy the life now"
+fi
+
+
+echo "Enjot in the all the stages in your life"
+
+echo "Thanks for using me..."
+
+
+
+
+
