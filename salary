@@ -19,6 +19,12 @@ elif [ $sal -gt 20000 -a $sal -lt 40000 ]
 then
    echo "you have to pay Indian Government 5% TAX"
 
+
+elif [ $sal == 20000 ]
+then
+   echo "you have to pay Indian Government 2% TAX"
+
+
 else
    echo "you have to pay Indian Government 10% TAX"
 fi

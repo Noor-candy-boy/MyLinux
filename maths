@@ -16,7 +16,7 @@ echo "Enter 2nd Number : "
 read b
 
 echo "Please select any one option to perform action : "
-echo "Options are 1)addition   2)subtraction   3)multiplication"
+echo "Options are 1)addition   2)subtraction   3)multiplication 4)Division "
 
 read opt
 
@@ -24,6 +24,7 @@ case $opt in
   1) echo "Addition is : $((a+b))";;
   2) echo "Subtraction is : $((a-b))";;
   3) echo "Multiplication is : $((a*b))";;
+  4) echo "Division is : $((a/b))";;
   *) echo "Enter valid choice";;
 esac
 
